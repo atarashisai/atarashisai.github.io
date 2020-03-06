@@ -1,3 +1,4 @@
+#Reference
 http://www.cplusplus.com/reference/
 #IDE
 IDE的选择：MS Visual Studio
@@ -30,8 +31,7 @@ C++语言支持/**/标记的注释，和//标记的短注释。
 ```cpp
 /* 
 Long Comment, C Style Comment, or Inline Comment
-    start from /* and end with */.
-*/
+    start from /* and end with */
 /* For example: */a/**/++;
 ```
 ```cpp
