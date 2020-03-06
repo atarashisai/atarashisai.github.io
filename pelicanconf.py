@@ -2,9 +2,9 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = u'Chiu CC'
-SITENAME = u'Second Round'
-SITEURL = 'http://alrightchiu.github.io/SecondRound/'
+AUTHOR = u'Atarashi Sai'
+SITENAME = u'Moe Continent Central Academy'
+SITEURL = 'http://atarashisai.github.io/moe-continent-central-academy/'
 
 PATH = 'content'
 TIMEZONE = 'Asia/Taipei'
@@ -54,7 +54,7 @@ EXTRA_PATH_METADATA = {
 
 # Flex setting
 SITETITLE = SITENAME
-SITESUBTITLE = u'初學者寫給初學者的演算法教學'
+SITESUBTITLE = u'萌大陸中央學院'
 # SITEDESCRIPTION = u'Not Bad Not Bed'
 # SITELOGO = u'http://alrightchiu.github.io/SecondRound/fig/antiwar.jpg'
 
@@ -68,10 +68,8 @@ SITESUBTITLE = u'初學者寫給初學者的演算法教學'
 
 # TYPOGRIFY = True
 
-MENUITEMS = [	# 別人直接用 /archives.html, why? 總之我要用URL才行
-    ('Archives', 'http://alrightchiu.github.io/SecondRound/archives.html'),	
-    # ('Categories', 'http://alrightchiu.github.io/SecondRound/categories.html'),
-    ('Tags', 'http://alrightchiu.github.io/SecondRound/tags.html'),
+MENUITEMS = [
+    #('Tags', 'http://alrightchiu.github.io/SecondRound/tags.html'),
 ]
 
 # Blogroll
@@ -88,7 +86,7 @@ CC_LICENSE = {
 
 # Social widget
 SOCIAL = (
-    ('github', 'https://github.com/alrightchiu'),
+    ('github', 'https://github.com/atarashisai'),
 )
 
 DEFAULT_PAGINATION = 10
