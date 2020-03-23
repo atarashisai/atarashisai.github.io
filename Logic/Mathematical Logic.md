@@ -26,14 +26,14 @@
 |T|F|T|
 |F|T|F|
 # 与非（nand）
-我不要苹果和菠萝（I do not want apples and pinapples）。
+我不要苹果和菠萝加一起（I do not want apples and pinapples）。
 |与非门　|||
 |---|---|---|
 |A nand B|T|F|
 |T|F|T|
 |F|T|T|
 # 或非（nor）
-我不要苹果或菠萝（I do not want apples or pinapples）。
+我苹果或菠萝都不要（I do not want apples or pinapples）。
 |或非门　|||
 |---|---|---|
 |A nor B|T|F|
