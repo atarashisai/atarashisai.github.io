@@ -1,6 +1,6 @@
 ### by class
-```css {}
-.class
+```css
+.class {}
 ```
 ```html
 <tag class="class">
