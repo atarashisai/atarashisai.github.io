@@ -25,7 +25,7 @@ int main()
     return 0;
 }
 ```
-#注释（Comment）
+# 注释（Comment）
 C语言只支持/**/标记的注释。
 C++语言支持/**/标记的注释，和//标记的短注释。
 ```cpp
@@ -37,7 +37,7 @@ Long Comment, C Style Comment, or Inline Comment
 ```cpp
 // Short Comment starts from // and ends with new line.
 ```
-#程序入口（Program Entry）
+# 程序入口（Program Entry）
 ```cpp
 /* Program Entry
 int main()是标准的写法。
@@ -51,12 +51,12 @@ int main()
 当程序出错时，main的返回值应该是非0（non-zero）。*/
 }
 ```
-#分行符
+# 分行符
 在C/C++语言中，每一段指令（instruction）都要用;来标记结束。
 ```
 [code];[code];[code];
 ```
-#基础数据类型（Primary Data Types，Primitives）
+# 基础数据类型（Primary Data Types，Primitives）
 ```cpp
 /* Primitives in C */
 /*整型（整数）*/ int number = 5;
