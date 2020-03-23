@@ -1,30 +1,30 @@
-# by class
+### by class
 ```css
 .class
 ```
 ```html
 <tag class="class">
 ```
-# by id
+### by id
 ```css
 #id
 ```
 ```html
 <tag id="id">
 ```
-# every element
+### every element
 ```css
 *
 ```
 所有元素
-# by element
+### by element
 ```css
 tag
 ```
 ```html
 <tag>
 ```
-# both a and b
+### both a and b
 ```css
 a, b
 ```
@@ -32,42 +32,42 @@ a, b
 <a>
 <b>
 ```
-# select descendant
+### select descendant
 ```css
 pa desc
 ```
 ```html
 <pa>...<desc>
 ```
-# select child
+### select child
 ```css
 pa > child
 ```
 ```html
 <pa><child>
 ```
-# right after
+### right after
 ```css
 a + b
 ```
 ```html
 <a></a><b></b>
 ```
-# after
+### after
 ```css
 a~b
 ```
 ```html
 <a></a>....<b></b>
 ```
-# attribute
+### attribute
 ```css
 [attr]
 ```
 ```html
 <e attr>
 ```
-# attribute w/ value
+### attribute w/ value
 ```css
 [attr=value]
 [attr="value"]
@@ -75,93 +75,93 @@ a~b
 ```html
 <e attr="value">
 ```
-# partial attribute value
+### partial attribute value
 ```css
 [attr~=alu]
 ```
 ```html
 <e attr="value">
 ```
-# partial attribute value
+### partial attribute value
 ```css
 [attr*=alu]
 ```
 ```html
 <e attr="value">
 ```
-# attribute starting with X
+### attribute starting with X
 ```css
 [attr|=X]
 ```
 ```html
 <e attr="Xelem">
 ```
-# attribute starting with X
+### attribute starting with X
 ```css
 [attr^=X]
 ```
 ```html
 <e attr="Xelem">
 ```
-# attribute ending with Z
+### attribute ending with Z
 ```css
 [attr$=Z]
 ```
 ```html
 <e attr="elem.Z">
 ```
-# active link
+### active link
 ```css
 a:active
 ```
 ```html
 <a>
 ```
-# insert content after
+### insert content after
 ```css
 e::after {content: "string";}
 ```
-# insert content before
+### insert content before
 ```css
 e::before {content: "string";}
 ```
-# checked input
+### checked input
 ```css
 input:checked
 ```
-# disabled input
+### disabled input
 ```css
 input:disabled
 ```
-# enabled input
+### enabled input
 ```css
 input:enabled
 ```
-# single (no child)
+### single (no child)
 ```css
 e:empty
 ```
-# select every first child of its parent
+### select every first child of its parent
 ```css
 e:first-child
 ```
-# select every child that is the first X type element of its parent
+### select every child that is the first X type element of its parent
 ```css
 e:first-of-type
 ```
-# select the first letter of the text node
+### select the first letter of the text node
 ```css
 e:first-letter
 ```
-# first-line
+### first-line
 ```css
 e::first-line
 ```
-# the element having focus
+### the element having focus
 ```css
 e:focus
 ```
-# the element having mouse over
+### the element having mouse over
 ```css
 e:hover
 ```
