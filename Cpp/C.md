@@ -1,10 +1,10 @@
-#Reference
+# Reference
 http://www.cplusplus.com/reference/
-#IDE
+# IDE
 IDE的选择：MS Visual Studio
-#Compilor
+# Compilor
 编译器的选择：gcc
-#Hello World
+# Hello World
 "Hello World"程序的要求是
 	在终端（Terminal）上打印出：Hello World!
 ```cpp
